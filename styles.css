@@ -1,0 +1,81 @@
+
+
+
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+.container {
+    position: relative;
+  
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.firt_title{
+    position: absolute;
+    top: 350px; 
+    left: 260px;
+    transform: translate(-50%, -50%);
+    color:black;
+    font-size: 3rem;
+    font-family: Arial, sans-serif;
+
+}
+.second_title{
+    position: absolute;
+    top: 480px; 
+    left: 335px; 
+    transform: translate(-50%, -50%);
+    color:rgb(109, 106, 106);
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+
+}
+
+.first_list{
+    position: absolute;
+    top: 320px; 
+    left: 700px; 
+
+}
+
+
+.second_list{
+    position: absolute;
+    top: 320px; 
+    left: 1120px; 
+
+}
+
+.custom-list{
+    color:rgb(109, 106, 106);
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+
+}
+
+ul.custom-list {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0; 
+}
+ul.custom-list li {
+    position: relative;
+    padding-left: 24px; /* Space for the icon */
+    margin-bottom: 8px; /* Space between items */
+}
+ul.custom-list li::before {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(99, 157, 34)" class="bi bi-check2-circle" viewBox="0 0 16 16"><path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/><path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/></svg>');
+    position: absolute;
+    color: rgb(99, 157, 34);
+    left: 0;
+    top: 0;
+    width: 16px; /* Adjust based on the SVG size */
+    height: 16px; /* Adjust based on the SVG size */
+}
