@@ -9,43 +9,92 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #8da945;">
+    <nav class="navbar navbar-expand-lg  navbar-light navbar-custom" style="background-color: #8da945; color: white">
         <a class="navbar-brand" href="#">SkinSoft</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Learn</a>
+                <li class="nav-item mx-3">
+                    <a class="nav-link " href="#">Learn</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                     <a class="nav-link" href="#">Explore</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
             <ul class="navbar-nav">
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                     <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i> Cart</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                     <a class="nav-link" href="#">EN</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown mx-3">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Logged in as Samer
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Profile</a>
                         <a class="dropdown-item" href="#">Logout</a>
+                        <a class="dropdown-item" href="#">Log in via another account</a>
                     </div>
                 </li>
             </ul>
         </div>
     </nav>
+    <div class="image-container">
+        <img src="images/BANNER1.JPG" alt="Banner image" class="img-fluid">
+    </div>
+    <footer style="background-color: #8da945; color: white; padding: 20px">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>SOCIÉTÉ</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" style="color: white;">Contact</a></li>
+                        <li><a href="#" style="color: white;">Presse</a></li>
+                        <li><a href="#" style="color: white;">Recrutements</a></li>
+                        <li><a href="#" style="color: white;">English</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Solutions</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" style="color: white;">Plateformes d'apprentissage</a></li>
+                        <li><a href="#" style="color: white;">Fonctionnalités</a></li>
+                        <li><a href="#" style="color: white;">Mask</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Offres</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" style="color: white;">Académiques</a></li>
+                        <li><a href="#" style="color: white;">Organismes de formations</a></li>
+                        <li><a href="#" style="color: white;">Entreprise</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <p>Copyright © 2022 Softina. All rights reserved. Worldwide.</p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <a href="#" style="color: white;" class="mx-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" style="color: white;" class="mx-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" style="color: white;" class="mx-2"><i class="fab fa-youtube"></i></a>
+                    <a href="#" style="color: white;" class="mx-2"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
 </body>
 </html>
