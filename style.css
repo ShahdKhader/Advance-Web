@@ -37,3 +37,65 @@ footer .text-right a {
 footer p{
     text-align: center;
 }
+
+/* Riham Section */
+.courses-button{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    border-radius: 1.04vw;
+    width: 11.35vw; 
+    height: 5.6vh;
+    font-size: 1.38vw;
+}
+.btn-success:hover{
+    background-color: #434343;
+    color: white;
+    border-color: transparent;
+}
+
+.filled-green-button{
+    background-color: #8FA03A;
+    border-color: transparent;
+}
+
+.border-green-button{
+    background-color: transparent;
+    border-color: #A7B464;
+    color: black;
+}
+
+.custom-container{
+    display: flex; 
+    justify-content: space-between; 
+    padding: 0;
+}
+
+.custom-card{
+    padding: 0;
+    width: 19.48vw;
+    height: 30.9375vw;
+    border-radius: 1.04vw;
+    border-color: transparent;
+    background-color: #f6f5f5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.custom-card img{
+    border-radius: 1.04vw 1.04vw 0 0; 
+    margin: 0;
+    height: 42%;
+}
+
+.custom-card-body{
+    padding: 1.9vh 1.25vw 4.01vh 1.25vw;
+}
+
+.card-button{
+    width: 60.6%;
+    height: 5.07vh;
+    font-size: 1.09vw;
+    border-radius: 1.04vw;
+}
+/* style="background-color: #8da945;   " */
