@@ -1,35 +1,231 @@
-*{
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link,
+.navbar-custom .navbar-nav .nav-link,
+.navbar-custom .navbar-text,
+.navbar-custom {
+    color: white !important;
 }
-.navbar{
-    background-color: #90a43c;
-    font-family: Arial;
-    padding-right: 15px;
-    padding-left: 15px;
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .dropdown-menu a:hover {
+    color: #ada6a6 !important;
 }
-.navdiv{
+
+.navbar-custom {
+    padding-top: 2rem;
+}
+
+.navbar-brand {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 4rem;
 }
-.logo{
-    flex: 1;
+
+.brand-image {
+    margin-bottom: 1rem;
 }
-.logo a{
-    color: white;
-    font-size: 35px;
-    font-weight: 600;
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+    padding-left: 75rem;
+    padding-top: 10rem;
 }
-li{
-    list-style: none;
+
+.carousel-indicators li {
     display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 5px; 
+    cursor: pointer;
+    
 }
-li a{
+
+.carousel-indicators .active {
+    background-color: #555;
+    
+}
+.carousel-control-prev,
+.carousel-control-next {
+    display: none;
+}
+
+
+
+
+.search-container {
+    text-align: center;
+    padding: 3.15rem 0;
+    background-color: #f5f5f5;
+}
+
+.search-container h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.8rem;
+    color: #6c6c6c;
+}
+
+.search-box {
+    display: inline-block;
+    position: relative;
+}
+
+.search-box input[type="text"] {
+    width: 37.5rem;
+    padding: 0.5rem 1.25rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    color: #c4c4c4;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.20);
+}
+
+.search-box input[type="text"]::placeholder {
+    color: #c4c4c4;
+}
+
+.search-box button {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #808080;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.custom-hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 0;
+}
+
+
+footer h5 {
+    margin-bottom: 1.5rem;
+}
+
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer .text-right a {
+    font-size: 1.5rem;
     color: white;
-    font-size: 18px;
-    font-weight: bold;
-    margin-right: 25px;
+}
+
+footer .text-right a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    text-align: center;
+    color: #eeeee4;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+.footer-links a {
+    color: white;
+    font-size: 0.875rem;
+    margin: 0 0.5rem;
+}
+
+.footer-links span {
+    color: white;
+}
+
+
+
+.social-media-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.8rem; 
+    margin-top: 1.5rem;
+    margin-bottom: rem;
+}
+
+.social-media-icons a {
+    color: white;
+    font-size: 1.2rem; 
+}
+
+.social-media-icons a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 1200px) {
+    .search-box input[type="text"] {
+        width: 30rem;
+    }
+    .footer-links {
+        margin-left: 7rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .search-box input[type="text"] {
+        width: 25rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .search-box input[type="text"] {
+        width: 20rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .search-box input[type="text"] {
+        width: 17rem;
+        padding: 0.5rem 0.75rem;
+    }
+
+    .search-container h2 {
+        font-size: 1.25rem;
+    }
+
+    .search-box button {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .search-box input[type="text"] {
+        width: 15rem;
+    }
+
+    .search-container h2 {
+        font-size: 1rem;
+    }
+
+    .search-box button {
+        font-size: 0.75rem;
+    }
+
 }
