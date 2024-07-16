@@ -163,5 +163,27 @@ ul.custom-list li::before {
     .under_slide_title {
         margin-top: 20px;
         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .under_sidec_first_title {
+        position: static;
+        transform: none;
     }
 }
+@media (max-width: 1024px) {
+    .under_slide_title {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%; 
+        text-align: center;
+    }
+
+    .under_sidec_first_title {
+        font-size: 18px;
+    }
+
+}
+
+
